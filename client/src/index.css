@@ -1,0 +1,41 @@
+/* ===== RESET & GLOBAL ===== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --purple:        #8B2BE2;
+  --purple-mid:    #A855F7;
+  --purple-light:  #C084FC;
+  --pink:          #E879F9;
+  --pink-hot:      #FF2E97;
+  --pink-accent:   #FF50E8;
+  --purple-bright: #B000FF;
+  --white:         #ffffff;
+  --black:         #111111;
+  --footer-bg:     #1a1a1a;
+
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'Inter', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: #fff;
+  color: #fff;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; color: inherit; }
+img { display: block; max-width: 100%; }
+button { cursor: pointer; border: none; outline: none; font-family: var(--font-display); background: none; }
+ul { list-style: none; }
+
+/* shared glow blobs */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(60px);
+}
