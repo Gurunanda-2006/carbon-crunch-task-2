@@ -24,6 +24,6 @@ Thumbs.db
 *.png
 *.jpg
 *.jpeg
-!client/public/assets/
-!server/assets/
-!assets/
+!client/public/assets/**
+!server/assets/**
+!assets/**
