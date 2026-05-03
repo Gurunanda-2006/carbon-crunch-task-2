@@ -2,10 +2,10 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import './About.css'
 
-import ellipse1 from '../../public/assets/Ellipse 434.png'
-import ellipse2 from '../../public/assets/Ellipse 435.png'
-import ellipse3 from '../../public/assets/Ellipse 436.png'
-import ellipse4 from '../../public/assets/Ellipse 437.png'
+const ellipse1 = '/assets/Ellipse 434.png'
+const ellipse2 = '/assets/Ellipse 435.png'
+const ellipse3 = '/assets/Ellipse 436.png'
+const ellipse4 = '/assets/Ellipse 437.png'
 
 const stats = [
   { value: '240K+', label: 'Artworks' },

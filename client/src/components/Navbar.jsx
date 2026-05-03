@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './Navbar.css'
-import logo from '../../public/assets/Union (1).png'
+const logo = '/assets/Union (1).png'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)

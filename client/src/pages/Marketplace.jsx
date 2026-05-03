@@ -3,13 +3,13 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import './Marketplace.css'
 
-import rect1 from '../../public/assets/Rectangle 22742.png'
-import rect2 from '../../public/assets/Rectangle 22743.png'
-import rect3 from '../../public/assets/Rectangle 22744.png'
-import rect4 from '../../public/assets/Rectangle 22745.png'
-import rect5 from '../../public/assets/Rectangle 22746.png'
-import rect6 from '../../public/assets/Rectangle 22747.png'
-import rect7 from '../../public/assets/Rectangle 22748.png'
+const rect1 = '/assets/Rectangle 22742.png'
+const rect2 = '/assets/Rectangle 22743.png'
+const rect3 = '/assets/Rectangle 22744.png'
+const rect4 = '/assets/Rectangle 22745.png'
+const rect5 = '/assets/Rectangle 22746.png'
+const rect6 = '/assets/Rectangle 22747.png'
+const rect7 = '/assets/Rectangle 22748.png'
 
 const nfts = [
   { id: 1, title: 'Bitcoin Art', artist: 'Jonathan Borba', price: '1.09', img: rect1, category: 'Art' },
